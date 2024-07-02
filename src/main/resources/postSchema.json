@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "integer"
+    },
+    "id": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100
+    }
+  },
+  "required": [
+    "title",
+    "body",
+    "userId",
+    "id"
+  ],
+  "additionalProperties": false
+}
